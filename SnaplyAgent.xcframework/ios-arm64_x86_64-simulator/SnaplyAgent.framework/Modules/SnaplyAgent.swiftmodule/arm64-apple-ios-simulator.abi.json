@@ -1,0 +1,2483 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SnaplyAgent",
+    "printedName": "SnaplyAgent",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CaptureMode",
+        "printedName": "CaptureMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "askEveryTime",
+            "printedName": "askEveryTime",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnaplyAgent.CaptureMode.Type) -> SnaplyAgent.CaptureMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureMode",
+                    "printedName": "SnaplyAgent.CaptureMode",
+                    "usr": "s:11SnaplyAgent11CaptureModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnaplyAgent.CaptureMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CaptureMode",
+                        "printedName": "SnaplyAgent.CaptureMode",
+                        "usr": "s:11SnaplyAgent11CaptureModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnaplyAgent11CaptureModeO12askEveryTimeyA2CmF",
+            "mangledName": "$s11SnaplyAgent11CaptureModeO12askEveryTimeyA2CmF",
+            "moduleName": "SnaplyAgent"
+          },
+          {
+            "kind": "Var",
+            "name": "perSession",
+            "printedName": "perSession",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnaplyAgent.CaptureMode.Type) -> SnaplyAgent.CaptureMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureMode",
+                    "printedName": "SnaplyAgent.CaptureMode",
+                    "usr": "s:11SnaplyAgent11CaptureModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnaplyAgent.CaptureMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CaptureMode",
+                        "printedName": "SnaplyAgent.CaptureMode",
+                        "usr": "s:11SnaplyAgent11CaptureModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnaplyAgent11CaptureModeO10perSessionyA2CmF",
+            "mangledName": "$s11SnaplyAgent11CaptureModeO10perSessionyA2CmF",
+            "moduleName": "SnaplyAgent"
+          },
+          {
+            "kind": "Var",
+            "name": "liveView",
+            "printedName": "liveView",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnaplyAgent.CaptureMode.Type) -> SnaplyAgent.CaptureMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureMode",
+                    "printedName": "SnaplyAgent.CaptureMode",
+                    "usr": "s:11SnaplyAgent11CaptureModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnaplyAgent.CaptureMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CaptureMode",
+                        "printedName": "SnaplyAgent.CaptureMode",
+                        "usr": "s:11SnaplyAgent11CaptureModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnaplyAgent11CaptureModeO8liveViewyA2CmF",
+            "mangledName": "$s11SnaplyAgent11CaptureModeO8liveViewyA2CmF",
+            "moduleName": "SnaplyAgent"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SnaplyAgent.CaptureMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureMode",
+                    "printedName": "SnaplyAgent.CaptureMode",
+                    "usr": "s:11SnaplyAgent11CaptureModeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SnaplyAgent11CaptureModeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11SnaplyAgent11CaptureModeO8rawValueACSgSS_tcfc",
+            "moduleName": "SnaplyAgent",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent11CaptureModeO8rawValueSSvp",
+            "mangledName": "$s11SnaplyAgent11CaptureModeO8rawValueSSvp",
+            "moduleName": "SnaplyAgent",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent11CaptureModeO8rawValueSSvg",
+                "mangledName": "$s11SnaplyAgent11CaptureModeO8rawValueSSvg",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11SnaplyAgent11CaptureModeO",
+        "mangledName": "$s11SnaplyAgent11CaptureModeO",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SnaplyUser",
+        "printedName": "SnaplyUser",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent0A4UserV2idSSvp",
+            "mangledName": "$s11SnaplyAgent0A4UserV2idSSvp",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A4UserV2idSSvg",
+                "mangledName": "$s11SnaplyAgent0A4UserV2idSSvg",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent0A4UserV4nameSSSgvp",
+            "mangledName": "$s11SnaplyAgent0A4UserV4nameSSSgvp",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A4UserV4nameSSSgvg",
+                "mangledName": "$s11SnaplyAgent0A4UserV4nameSSSgvg",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SnaplyUser",
+                "printedName": "SnaplyAgent.SnaplyUser",
+                "usr": "s:11SnaplyAgent0A4UserV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SnaplyAgent0A4UserV2id4nameACSS_SSSgtcfc",
+            "mangledName": "$s11SnaplyAgent0A4UserV2id4nameACSS_SSSgtcfc",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11SnaplyAgent0A4UserV",
+        "mangledName": "$s11SnaplyAgent0A4UserV",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CaptureResult",
+        "printedName": "CaptureResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "captureId",
+            "printedName": "captureId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent13CaptureResultV9captureIdSSvp",
+            "mangledName": "$s11SnaplyAgent13CaptureResultV9captureIdSSvp",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent13CaptureResultV9captureIdSSvg",
+                "mangledName": "$s11SnaplyAgent13CaptureResultV9captureIdSSvg",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageUrl",
+            "printedName": "imageUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent13CaptureResultV8imageUrlSSvp",
+            "mangledName": "$s11SnaplyAgent13CaptureResultV8imageUrlSSvp",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent13CaptureResultV8imageUrlSSvg",
+                "mangledName": "$s11SnaplyAgent13CaptureResultV8imageUrlSSvg",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CaptureResult",
+                "printedName": "SnaplyAgent.CaptureResult",
+                "usr": "s:11SnaplyAgent13CaptureResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SnaplyAgent13CaptureResultV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11SnaplyAgent13CaptureResultV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SnaplyAgent",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SnaplyAgent13CaptureResultV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11SnaplyAgent13CaptureResultV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SnaplyAgent",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11SnaplyAgent13CaptureResultV",
+        "mangledName": "$s11SnaplyAgent13CaptureResultV",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SnaplyError",
+        "printedName": "SnaplyError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent0A5ErrorV6statusSivp",
+            "mangledName": "$s11SnaplyAgent0A5ErrorV6statusSivp",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A5ErrorV6statusSivg",
+                "mangledName": "$s11SnaplyAgent0A5ErrorV6statusSivg",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent0A5ErrorV4codeSSvp",
+            "mangledName": "$s11SnaplyAgent0A5ErrorV4codeSSvp",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A5ErrorV4codeSSvg",
+                "mangledName": "$s11SnaplyAgent0A5ErrorV4codeSSvg",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent0A5ErrorV7messageSSvp",
+            "mangledName": "$s11SnaplyAgent0A5ErrorV7messageSSvp",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A5ErrorV7messageSSvg",
+                "mangledName": "$s11SnaplyAgent0A5ErrorV7messageSSvg",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11SnaplyAgent0A5ErrorV",
+        "mangledName": "$s11SnaplyAgent0A5ErrorV",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SnaplyCallbacks",
+        "printedName": "SnaplyCallbacks",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onRequestShown",
+            "printedName": "onRequestShown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent0A9CallbacksV14onRequestShownyycSgvp",
+            "mangledName": "$s11SnaplyAgent0A9CallbacksV14onRequestShownyycSgvp",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV14onRequestShownyycSgvg",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV14onRequestShownyycSgvg",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV14onRequestShownyycSgvs",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV14onRequestShownyycSgvs",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV14onRequestShownyycSgvM",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV14onRequestShownyycSgvM",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAllowed",
+            "printedName": "onAllowed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((SnaplyAgent.CaptureResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SnaplyAgent.CaptureResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CaptureResult",
+                        "printedName": "SnaplyAgent.CaptureResult",
+                        "usr": "s:11SnaplyAgent13CaptureResultV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent0A9CallbacksV9onAllowedyAA13CaptureResultVcSgvp",
+            "mangledName": "$s11SnaplyAgent0A9CallbacksV9onAllowedyAA13CaptureResultVcSgvp",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((SnaplyAgent.CaptureResult) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(SnaplyAgent.CaptureResult) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CaptureResult",
+                            "printedName": "SnaplyAgent.CaptureResult",
+                            "usr": "s:11SnaplyAgent13CaptureResultV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV9onAllowedyAA13CaptureResultVcSgvg",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV9onAllowedyAA13CaptureResultVcSgvg",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((SnaplyAgent.CaptureResult) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(SnaplyAgent.CaptureResult) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CaptureResult",
+                            "printedName": "SnaplyAgent.CaptureResult",
+                            "usr": "s:11SnaplyAgent13CaptureResultV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV9onAllowedyAA13CaptureResultVcSgvs",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV9onAllowedyAA13CaptureResultVcSgvs",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV9onAllowedyAA13CaptureResultVcSgvM",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV9onAllowedyAA13CaptureResultVcSgvM",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onDenied",
+            "printedName": "onDenied",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent0A9CallbacksV8onDeniedyycSgvp",
+            "mangledName": "$s11SnaplyAgent0A9CallbacksV8onDeniedyycSgvp",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV8onDeniedyycSgvg",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV8onDeniedyycSgvg",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV8onDeniedyycSgvs",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV8onDeniedyycSgvs",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV8onDeniedyycSgvM",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV8onDeniedyycSgvM",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onExpired",
+            "printedName": "onExpired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent0A9CallbacksV9onExpiredyycSgvp",
+            "mangledName": "$s11SnaplyAgent0A9CallbacksV9onExpiredyycSgvp",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV9onExpiredyycSgvg",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV9onExpiredyycSgvg",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV9onExpiredyycSgvs",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV9onExpiredyycSgvs",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV9onExpiredyycSgvM",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV9onExpiredyycSgvM",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onError",
+            "printedName": "onError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent0A9CallbacksV7onErrorys0E0_pcSgvp",
+            "mangledName": "$s11SnaplyAgent0A9CallbacksV7onErrorys0E0_pcSgvp",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any Swift.Error) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any Swift.Error) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV7onErrorys0E0_pcSgvg",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV7onErrorys0E0_pcSgvg",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any Swift.Error) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any Swift.Error) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV7onErrorys0E0_pcSgvs",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV7onErrorys0E0_pcSgvs",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV7onErrorys0E0_pcSgvM",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV7onErrorys0E0_pcSgvM",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(onRequestShown:onAllowed:onDenied:onExpired:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SnaplyCallbacks",
+                "printedName": "SnaplyAgent.SnaplyCallbacks",
+                "usr": "s:11SnaplyAgent0A9CallbacksV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((SnaplyAgent.CaptureResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SnaplyAgent.CaptureResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CaptureResult",
+                        "printedName": "SnaplyAgent.CaptureResult",
+                        "usr": "s:11SnaplyAgent13CaptureResultV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SnaplyAgent0A9CallbacksV14onRequestShown0D7Allowed0D6Denied0D7Expired0D5ErrorACyycSg_yAA13CaptureResultVcSgA2Iys0J0_pcSgtcfc",
+            "mangledName": "$s11SnaplyAgent0A9CallbacksV14onRequestShown0D7Allowed0D6Denied0D7Expired0D5ErrorACyycSg_yAA13CaptureResultVcSgA2Iys0J0_pcSgtcfc",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11SnaplyAgent0A9CallbacksV",
+        "mangledName": "$s11SnaplyAgent0A9CallbacksV",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Snaply",
+        "printedName": "Snaply",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(key:environment:user:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SnaplyEnvironment",
+                "printedName": "SnaplyAgent.SnaplyEnvironment",
+                "hasDefaultArg": true,
+                "usr": "s:11SnaplyAgent0A11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SnaplyAgent.SnaplyUser?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SnaplyUser",
+                    "printedName": "SnaplyAgent.SnaplyUser",
+                    "usr": "s:11SnaplyAgent0A4UserV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SnaplyAgent0A0O9configure3key11environment4userySS_AA0A11EnvironmentOAA0A4UserVSgtYaKFZ",
+            "mangledName": "$s11SnaplyAgent0A0O9configure3key11environment4userySS_AA0A11EnvironmentOAA0A4UserVSgtYaKFZ",
+            "moduleName": "SnaplyAgent",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(key:environment:user:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SnaplyEnvironment",
+                "printedName": "SnaplyAgent.SnaplyEnvironment",
+                "hasDefaultArg": true,
+                "usr": "s:11SnaplyAgent0A11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SnaplyAgent.SnaplyUser?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SnaplyUser",
+                    "printedName": "SnaplyAgent.SnaplyUser",
+                    "usr": "s:11SnaplyAgent0A4UserV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(((any Swift.Error)?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "((any Swift.Error)?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SnaplyAgent0A0O9configure3key11environment4user10completionySS_AA0A11EnvironmentOAA0A4UserVSgys5Error_pSgcSgtFZ",
+            "mangledName": "$s11SnaplyAgent0A0O9configure3key11environment4user10completionySS_AA0A11EnvironmentOAA0A4UserVSgys5Error_pSgcSgtFZ",
+            "moduleName": "SnaplyAgent",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "on",
+            "printedName": "on(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SnaplyCallbacks",
+                "printedName": "SnaplyAgent.SnaplyCallbacks",
+                "usr": "s:11SnaplyAgent0A9CallbacksV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SnaplyAgent0A0O2onyyAA0A9CallbacksVFZ",
+            "mangledName": "$s11SnaplyAgent0A0O2onyyAA0A9CallbacksVFZ",
+            "moduleName": "SnaplyAgent",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "identify",
+            "printedName": "identify(id:name:phone:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SnaplyAgent0A0O8identify2id4name5phoneySS_SSSgAHtFZ",
+            "mangledName": "$s11SnaplyAgent0A0O8identify2id4name5phoneySS_SSSgAHtFZ",
+            "moduleName": "SnaplyAgent",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SnaplyAgent0A0O5resetyyFZ",
+            "mangledName": "$s11SnaplyAgent0A0O5resetyyFZ",
+            "moduleName": "SnaplyAgent",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "supportCode",
+            "printedName": "supportCode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SnaplyAgent0A0O11supportCodeSSSgyFZ",
+            "mangledName": "$s11SnaplyAgent0A0O11supportCodeSSSgyFZ",
+            "moduleName": "SnaplyAgent",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showSupportCode",
+            "printedName": "showSupportCode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SnaplyAgent0A0O15showSupportCodeyyFZ",
+            "mangledName": "$s11SnaplyAgent0A0O15showSupportCodeyyFZ",
+            "moduleName": "SnaplyAgent",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SnaplyAgent0A0O4stopyyFZ",
+            "mangledName": "$s11SnaplyAgent0A0O4stopyyFZ",
+            "moduleName": "SnaplyAgent",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11SnaplyAgent0A0O",
+        "mangledName": "$s11SnaplyAgent0A0O",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SnaplyEnvironment",
+        "printedName": "SnaplyEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "development",
+            "printedName": "development",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnaplyAgent.SnaplyEnvironment.Type) -> SnaplyAgent.SnaplyEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SnaplyEnvironment",
+                    "printedName": "SnaplyAgent.SnaplyEnvironment",
+                    "usr": "s:11SnaplyAgent0A11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnaplyAgent.SnaplyEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SnaplyEnvironment",
+                        "printedName": "SnaplyAgent.SnaplyEnvironment",
+                        "usr": "s:11SnaplyAgent0A11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnaplyAgent0A11EnvironmentO11developmentyA2CmF",
+            "mangledName": "$s11SnaplyAgent0A11EnvironmentO11developmentyA2CmF",
+            "moduleName": "SnaplyAgent"
+          },
+          {
+            "kind": "Var",
+            "name": "staging",
+            "printedName": "staging",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnaplyAgent.SnaplyEnvironment.Type) -> SnaplyAgent.SnaplyEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SnaplyEnvironment",
+                    "printedName": "SnaplyAgent.SnaplyEnvironment",
+                    "usr": "s:11SnaplyAgent0A11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnaplyAgent.SnaplyEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SnaplyEnvironment",
+                        "printedName": "SnaplyAgent.SnaplyEnvironment",
+                        "usr": "s:11SnaplyAgent0A11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnaplyAgent0A11EnvironmentO7stagingyA2CmF",
+            "mangledName": "$s11SnaplyAgent0A11EnvironmentO7stagingyA2CmF",
+            "moduleName": "SnaplyAgent"
+          },
+          {
+            "kind": "Var",
+            "name": "live",
+            "printedName": "live",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnaplyAgent.SnaplyEnvironment.Type) -> SnaplyAgent.SnaplyEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SnaplyEnvironment",
+                    "printedName": "SnaplyAgent.SnaplyEnvironment",
+                    "usr": "s:11SnaplyAgent0A11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnaplyAgent.SnaplyEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SnaplyEnvironment",
+                        "printedName": "SnaplyAgent.SnaplyEnvironment",
+                        "usr": "s:11SnaplyAgent0A11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnaplyAgent0A11EnvironmentO4liveyA2CmF",
+            "mangledName": "$s11SnaplyAgent0A11EnvironmentO4liveyA2CmF",
+            "moduleName": "SnaplyAgent"
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnaplyAgent.SnaplyEnvironment.Type) -> (Foundation.URL) -> SnaplyAgent.SnaplyEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URL) -> SnaplyAgent.SnaplyEnvironment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SnaplyEnvironment",
+                        "printedName": "SnaplyAgent.SnaplyEnvironment",
+                        "usr": "s:11SnaplyAgent0A11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnaplyAgent.SnaplyEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SnaplyEnvironment",
+                        "printedName": "SnaplyAgent.SnaplyEnvironment",
+                        "usr": "s:11SnaplyAgent0A11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnaplyAgent0A11EnvironmentO6customyAC10Foundation3URLVcACmF",
+            "mangledName": "$s11SnaplyAgent0A11EnvironmentO6customyAC10Foundation3URLVcACmF",
+            "moduleName": "SnaplyAgent"
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent0A11EnvironmentO3url10Foundation3URLVvp",
+            "mangledName": "$s11SnaplyAgent0A11EnvironmentO3url10Foundation3URLVvp",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A11EnvironmentO3url10Foundation3URLVvg",
+                "mangledName": "$s11SnaplyAgent0A11EnvironmentO3url10Foundation3URLVvg",
+                "moduleName": "SnaplyAgent",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11SnaplyAgent0A11EnvironmentO",
+        "mangledName": "$s11SnaplyAgent0A11EnvironmentO",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 326,
+      "length": 14,
+      "value": "\"AskEveryTime\""
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 12,
+      "value": "\"PerSession\""
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 10,
+      "value": "\"LiveView\""
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/Paths.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 17,
+      "value": "\"\/v1\/sdk\/devices\""
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/Paths.swift",
+      "kind": "StringLiteral",
+      "offset": 300,
+      "length": 26,
+      "value": "\"\/v1\/sdk\/devices\/identify\""
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/Paths.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 23,
+      "value": "\"\/v1\/sdk\/devices\/reset\""
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/Paths.swift",
+      "kind": "StringLiteral",
+      "offset": 398,
+      "length": 13,
+      "value": "\"\/sdk\/socket\""
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/SnaplyClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 603,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/SnaplyClient.swift",
+      "kind": "StringLiteral",
+      "offset": 642,
+      "length": 7,
+      "value": "\"2.3.0\""
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/SnaplyClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 707,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/SnaplyClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1006,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/SnaplyClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1034,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/Transport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 884,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
