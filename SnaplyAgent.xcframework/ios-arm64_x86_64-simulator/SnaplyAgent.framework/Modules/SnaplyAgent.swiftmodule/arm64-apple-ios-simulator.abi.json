@@ -2872,7 +2872,7 @@
       "kind": "StringLiteral",
       "offset": 642,
       "length": 7,
-      "value": "\"2.6.0\""
+      "value": "\"2.6.1\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/SnaplyClient.swift",
@@ -2892,20 +2892,20 @@
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/SnaplyClient.swift",
       "kind": "StringLiteral",
       "offset": 1020,
-      "length": 155,
-      "value": "\"Support will see your screen live and may save a snapshot or record the session to help with your issue. A red indicator stays on while you’re sharing.\""
+      "length": 218,
+      "value": "\"Support will see your screen live and can point, highlight, and mark things on it to guide you. They may save a snapshot or record the session to help with your issue. A red indicator stays on while you’re sharing.\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/SnaplyClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1472,
+      "offset": 1535,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS\/Sources\/SnaplyAgent\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1500,
+      "offset": 1563,
       "length": 5,
       "value": "false"
     },
