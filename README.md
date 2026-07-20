@@ -58,11 +58,27 @@ Snaply.stop()
 
 ## Environments
 
-The default (`.live`) talks to Snaply's production service — for a standard integration you
-never set `environment:`. `.custom(url)` points the SDK at a self-hosted deployment.
+`environment:` selects which Snaply deployment to talk to — they are **separate backends**
+(each its own database):
 
-A product has Test and Live keys (`snap_test_…` / `snap_live_…`) — test captures are excluded
-from quota and billing. Use the key from your product's settings in the console.
+| `SnaplyEnvironment` | |
+| --- | --- |
+| `.live` (default) | production — a standard integration never sets `environment:` |
+| `.staging` | Snaply's staging deployment |
+| `.development` | Snaply's development deployment |
+| `.custom(url)` | self-hosted |
+
+```swift
+#if DEBUG
+try await Snaply.configure(key: "…", environment: .development)
+#else
+try await Snaply.configure(key: "…")   // .live
+#endif
+```
+
+Each environment has its own products and keys — use the key from the matching environment's
+console. (Within one environment, a product also has Test vs Live keys — `snap_test_…` /
+`snap_live_…` — where test captures are excluded from quota/billing; that's a separate axis.)
 
 ## Consent model
 
