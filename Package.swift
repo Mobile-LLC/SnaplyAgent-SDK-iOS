@@ -4,9 +4,9 @@
 //  SnaplyAgent iOS SDK — binary distribution.
 //
 //  Ships the compiled SnaplyAgent.xcframework directly (path-based) so a private repo resolves over
-//  plain git auth — no separate release-asset download (which 404s for private repos). The source
-//  lives privately in Mobile-LLC/SnaplyAgent-SDK-iOS-Dev; each version is a git tag here whose
-//  committed xcframework is that version's build (updated by the Dev repo's release.sh).
+//  plain git auth — no separate release-asset download (which 404s for private repos). Each SDK
+//  version is a git tag on this repo whose committed xcframework is that version's build — see the
+//  Releases page for the current version. The source lives in a separate private repository.
 //
 
 import PackageDescription
