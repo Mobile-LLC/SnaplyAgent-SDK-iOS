@@ -40,7 +40,8 @@ public struct SnaplyCallbacks {
   public var onDenied: (() -> Swift.Void)?
   public var onExpired: (() -> Swift.Void)?
   public var onError: ((any Swift.Error) -> Swift.Void)?
-  public init(onRequestShown: (() -> Swift.Void)? = nil, onAllowed: ((SnaplyAgent.CaptureResult) -> Swift.Void)? = nil, onDenied: (() -> Swift.Void)? = nil, onExpired: (() -> Swift.Void)? = nil, onError: ((any Swift.Error) -> Swift.Void)? = nil)
+  public var onRemoteControl: ((Swift.Bool) -> Swift.Void)?
+  public init(onRequestShown: (() -> Swift.Void)? = nil, onAllowed: ((SnaplyAgent.CaptureResult) -> Swift.Void)? = nil, onDenied: (() -> Swift.Void)? = nil, onExpired: (() -> Swift.Void)? = nil, onError: ((any Swift.Error) -> Swift.Void)? = nil, onRemoteControl: ((Swift.Bool) -> Swift.Void)? = nil)
 }
 public enum Snaply {
   public static func configure(key: Swift.String, environment: SnaplyAgent.SnaplyEnvironment = .live, user: SnaplyAgent.SnaplyUser? = nil) async throws
