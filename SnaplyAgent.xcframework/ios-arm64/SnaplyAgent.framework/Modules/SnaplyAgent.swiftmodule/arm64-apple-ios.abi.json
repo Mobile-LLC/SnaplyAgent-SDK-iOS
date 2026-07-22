@@ -3098,7 +3098,7 @@
       "kind": "StringLiteral",
       "offset": 642,
       "length": 7,
-      "value": "\"2.8.0\""
+      "value": "\"2.8.1\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
