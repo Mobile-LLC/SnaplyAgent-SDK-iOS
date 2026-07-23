@@ -36,6 +36,37 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3356,6 +3387,20 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/DeviceHealth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1088,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/DeviceHealth.swift",
+      "kind": "Dictionary",
+      "offset": 1848,
+      "length": 945,
+      "value": "[(\"iPhone14,4\", \"iPhone 13 mini\"), (\"iPhone14,5\", \"iPhone 13\"), (\"iPhone14,2\", \"iPhone 13 Pro\"), (\"iPhone14,3\", \"iPhone 13 Pro Max\"), (\"iPhone14,7\", \"iPhone 14\"), (\"iPhone14,8\", \"iPhone 14 Plus\"), (\"iPhone15,2\", \"iPhone 14 Pro\"), (\"iPhone15,3\", \"iPhone 14 Pro Max\"), (\"iPhone15,4\", \"iPhone 15\"), (\"iPhone15,5\", \"iPhone 15 Plus\"), (\"iPhone16,1\", \"iPhone 15 Pro\"), (\"iPhone16,2\", \"iPhone 15 Pro Max\"), (\"iPhone17,3\", \"iPhone 16\"), (\"iPhone17,4\", \"iPhone 16 Plus\"), (\"iPhone17,1\", \"iPhone 16 Pro\"), (\"iPhone17,2\", \"iPhone 16 Pro Max\"), (\"iPhone17,5\", \"iPhone 16e\"), (\"iPad13,18\", \"iPad (10th generation)\"), (\"iPad13,19\", \"iPad (10th generation)\"), (\"iPad14,8\", \"iPad Air 11-inch (M2)\"), (\"iPad14,9\", \"iPad Air 11-inch (M2)\"), (\"iPad16,3\", \"iPad Pro 11-inch (M4)\"), (\"iPad16,4\", \"iPad Pro 11-inch (M4)\")]"
+    },
+    {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
       "offset": 773,
@@ -3933,48 +3978,48 @@
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
       "kind": "StringLiteral",
       "offset": 642,
-      "length": 7,
-      "value": "\"2.9.0\""
+      "length": 8,
+      "value": "\"2.10.0\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 707,
+      "offset": 708,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 767,
+      "offset": 768,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
       "kind": "StringLiteral",
-      "offset": 1020,
+      "offset": 1021,
       "length": 218,
       "value": "\"Support will see your screen live and can point, highlight, and mark things on it to guide you. They may save a snapshot or record the session to help with your issue. A red indicator stays on while you’re sharing.\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1535,
+      "offset": 1536,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1563,
+      "offset": 1564,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 2014,
+      "offset": 2015,
       "length": 5,
       "value": "false"
     },
