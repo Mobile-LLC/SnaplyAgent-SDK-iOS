@@ -3,7 +3,9 @@
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SnaplyAgent
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import Foundation
+import ObjectiveC
 import Swift
+import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
@@ -43,10 +45,28 @@ public struct SnaplyCallbacks {
   public var onRemoteControl: ((Swift.Bool) -> Swift.Void)?
   public init(onRequestShown: (() -> Swift.Void)? = nil, onAllowed: ((SnaplyAgent.CaptureResult) -> Swift.Void)? = nil, onDenied: (() -> Swift.Void)? = nil, onExpired: (() -> Swift.Void)? = nil, onError: ((any Swift.Error) -> Swift.Void)? = nil, onRemoteControl: ((Swift.Bool) -> Swift.Void)? = nil)
 }
+public struct SnaplyRedaction {
+  public var color: UIKit.UIColor
+  public var label: Swift.String
+  public var labelColor: UIKit.UIColor
+  public init(color: UIKit.UIColor = UIColor(red: 226 / 255, green: 59 / 255, blue: 55 / 255, alpha: 1), label: Swift.String = "REDACTED", labelColor: UIKit.UIColor = .white)
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public func snaplyRedact(color: UIKit.UIColor? = nil, label: Swift.String? = nil, labelColor: UIKit.UIColor? = nil)
+  @_Concurrency.MainActor @preconcurrency public var isSnaplyRedacted: Swift.Bool {
+    get
+    set
+  }
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func snaplyRedact(color: UIKit.UIColor? = nil, label: Swift.String? = nil, labelColor: UIKit.UIColor? = nil) -> some SwiftUICore.View
+  
+}
 public enum Snaply {
   public static func configure(key: Swift.String, environment: SnaplyAgent.SnaplyEnvironment = .live, user: SnaplyAgent.SnaplyUser? = nil) async throws
   public static func configure(key: Swift.String, environment: SnaplyAgent.SnaplyEnvironment = .live, user: SnaplyAgent.SnaplyUser? = nil, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
   public static func on(_ callbacks: SnaplyAgent.SnaplyCallbacks)
+  public static func setRedactionStyle(_ style: SnaplyAgent.SnaplyRedaction)
   public static func identify(id: Swift.String, name: Swift.String? = nil, phone: Swift.String? = nil)
   public static func reset()
   public static func supportCode() -> Swift.String?
