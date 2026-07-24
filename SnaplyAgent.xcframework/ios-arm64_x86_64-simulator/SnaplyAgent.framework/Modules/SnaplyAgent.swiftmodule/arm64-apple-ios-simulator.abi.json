@@ -894,6 +894,81 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "LiveSession",
+        "printedName": "LiveSession",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sessionId",
+            "printedName": "sessionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent11LiveSessionV9sessionIdSSvp",
+            "mangledName": "$s11SnaplyAgent11LiveSessionV9sessionIdSSvp",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent11LiveSessionV9sessionIdSSvg",
+                "mangledName": "$s11SnaplyAgent11LiveSessionV9sessionIdSSvg",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11SnaplyAgent11LiveSessionV",
+        "mangledName": "$s11SnaplyAgent11LiveSessionV",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "SnaplyCallbacks",
         "printedName": "SnaplyCallbacks",
         "children": [
@@ -1766,9 +1841,156 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "onLiveEnded",
+            "printedName": "onLiveEnded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((SnaplyAgent.LiveSession) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SnaplyAgent.LiveSession) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LiveSession",
+                        "printedName": "SnaplyAgent.LiveSession",
+                        "usr": "s:11SnaplyAgent11LiveSessionV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnaplyAgent0A9CallbacksV11onLiveEndedyAA0E7SessionVcSgvp",
+            "mangledName": "$s11SnaplyAgent0A9CallbacksV11onLiveEndedyAA0E7SessionVcSgvp",
+            "moduleName": "SnaplyAgent",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((SnaplyAgent.LiveSession) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(SnaplyAgent.LiveSession) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LiveSession",
+                            "printedName": "SnaplyAgent.LiveSession",
+                            "usr": "s:11SnaplyAgent11LiveSessionV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV11onLiveEndedyAA0E7SessionVcSgvg",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV11onLiveEndedyAA0E7SessionVcSgvg",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((SnaplyAgent.LiveSession) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(SnaplyAgent.LiveSession) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LiveSession",
+                            "printedName": "SnaplyAgent.LiveSession",
+                            "usr": "s:11SnaplyAgent11LiveSessionV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV11onLiveEndedyAA0E7SessionVcSgvs",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV11onLiveEndedyAA0E7SessionVcSgvs",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnaplyAgent0A9CallbacksV11onLiveEndedyAA0E7SessionVcSgvM",
+                "mangledName": "$s11SnaplyAgent0A9CallbacksV11onLiveEndedyAA0E7SessionVcSgvM",
+                "moduleName": "SnaplyAgent",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(onRequestShown:onAllowed:onDenied:onExpired:onError:onRemoteControl:)",
+            "printedName": "init(onRequestShown:onAllowed:onDenied:onExpired:onError:onRemoteControl:onLiveEnded:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1934,11 +2156,38 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((SnaplyAgent.LiveSession) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SnaplyAgent.LiveSession) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LiveSession",
+                        "printedName": "SnaplyAgent.LiveSession",
+                        "usr": "s:11SnaplyAgent11LiveSessionV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11SnaplyAgent0A9CallbacksV14onRequestShown0D7Allowed0D6Denied0D7Expired0D5Error0D13RemoteControlACyycSg_yAA13CaptureResultVcSgA2Jys0J0_pcSgySbcSgtcfc",
-            "mangledName": "$s11SnaplyAgent0A9CallbacksV14onRequestShown0D7Allowed0D6Denied0D7Expired0D5Error0D13RemoteControlACyycSg_yAA13CaptureResultVcSgA2Jys0J0_pcSgySbcSgtcfc",
+            "usr": "s:11SnaplyAgent0A9CallbacksV14onRequestShown0D7Allowed0D6Denied0D7Expired0D5Error0D13RemoteControl0D9LiveEndedACyycSg_yAA13CaptureResultVcSgA2Kys0J0_pcSgySbcSgyAA0M7SessionVcSgtcfc",
+            "mangledName": "$s11SnaplyAgent0A9CallbacksV14onRequestShown0D7Allowed0D6Denied0D7Expired0D5Error0D13RemoteControl0D9LiveEndedACyycSg_yAA13CaptureResultVcSgA2Kys0J0_pcSgySbcSgyAA0M7SessionVcSgtcfc",
             "moduleName": "SnaplyAgent",
             "declAttributes": [
               "AccessControl"
@@ -2331,6 +2580,16 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -3401,6 +3660,13 @@
       "value": "[(\"iPhone14,4\", \"iPhone 13 mini\"), (\"iPhone14,5\", \"iPhone 13\"), (\"iPhone14,2\", \"iPhone 13 Pro\"), (\"iPhone14,3\", \"iPhone 13 Pro Max\"), (\"iPhone14,7\", \"iPhone 14\"), (\"iPhone14,8\", \"iPhone 14 Plus\"), (\"iPhone15,2\", \"iPhone 14 Pro\"), (\"iPhone15,3\", \"iPhone 14 Pro Max\"), (\"iPhone15,4\", \"iPhone 15\"), (\"iPhone15,5\", \"iPhone 15 Plus\"), (\"iPhone16,1\", \"iPhone 15 Pro\"), (\"iPhone16,2\", \"iPhone 15 Pro Max\"), (\"iPhone17,3\", \"iPhone 16\"), (\"iPhone17,4\", \"iPhone 16 Plus\"), (\"iPhone17,1\", \"iPhone 16 Pro\"), (\"iPhone17,2\", \"iPhone 16 Pro Max\"), (\"iPhone17,5\", \"iPhone 16e\"), (\"iPad13,18\", \"iPad (10th generation)\"), (\"iPad13,19\", \"iPad (10th generation)\"), (\"iPad14,8\", \"iPad Air 11-inch (M2)\"), (\"iPad14,9\", \"iPad Air 11-inch (M2)\"), (\"iPad16,3\", \"iPad Pro 11-inch (M4)\"), (\"iPad16,4\", \"iPad Pro 11-inch (M4)\")]"
     },
     {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/DeviceHealth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8809,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
       "offset": 773,
@@ -3851,7 +4117,7 @@
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "Array",
-      "offset": 28685,
+      "offset": 28677,
       "length": 2,
       "value": "[]"
     },
@@ -3968,6 +4234,27 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SessionBanner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1012,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SessionBanner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1017,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SessionBanner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1064,
+      "length": 2,
+      "value": "15"
+    },
+    {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
       "kind": "IntegerLiteral",
       "offset": 603,
@@ -3979,7 +4266,7 @@
       "kind": "StringLiteral",
       "offset": 642,
       "length": 8,
-      "value": "\"2.10.0\""
+      "value": "\"2.11.0\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
@@ -4004,22 +4291,29 @@
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1494,
+      "length": 181,
+      "value": "\"Support wants to tap, scroll, and type in {company} to help fix your issue. You’ll watch it happen and can take back control at any time. Fields with sensitive data stay locked.\""
+    },
+    {
+      "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1536,
+      "offset": 2271,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1564,
+      "offset": 2299,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 2015,
+      "offset": 3231,
       "length": 5,
       "value": "false"
     },

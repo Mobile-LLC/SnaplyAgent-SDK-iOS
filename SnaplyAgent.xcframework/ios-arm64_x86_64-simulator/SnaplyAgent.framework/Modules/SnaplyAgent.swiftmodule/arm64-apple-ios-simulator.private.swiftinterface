@@ -38,6 +38,9 @@ public struct SnaplyError : Swift.Error {
   public let code: Swift.String
   public let message: Swift.String
 }
+public struct LiveSession {
+  public let sessionId: Swift.String
+}
 public struct SnaplyCallbacks {
   public var onRequestShown: (() -> Swift.Void)?
   public var onAllowed: ((SnaplyAgent.CaptureResult) -> Swift.Void)?
@@ -45,7 +48,8 @@ public struct SnaplyCallbacks {
   public var onExpired: (() -> Swift.Void)?
   public var onError: ((any Swift.Error) -> Swift.Void)?
   public var onRemoteControl: ((Swift.Bool) -> Swift.Void)?
-  public init(onRequestShown: (() -> Swift.Void)? = nil, onAllowed: ((SnaplyAgent.CaptureResult) -> Swift.Void)? = nil, onDenied: (() -> Swift.Void)? = nil, onExpired: (() -> Swift.Void)? = nil, onError: ((any Swift.Error) -> Swift.Void)? = nil, onRemoteControl: ((Swift.Bool) -> Swift.Void)? = nil)
+  public var onLiveEnded: ((SnaplyAgent.LiveSession) -> Swift.Void)?
+  public init(onRequestShown: (() -> Swift.Void)? = nil, onAllowed: ((SnaplyAgent.CaptureResult) -> Swift.Void)? = nil, onDenied: (() -> Swift.Void)? = nil, onExpired: (() -> Swift.Void)? = nil, onError: ((any Swift.Error) -> Swift.Void)? = nil, onRemoteControl: ((Swift.Bool) -> Swift.Void)? = nil, onLiveEnded: ((SnaplyAgent.LiveSession) -> Swift.Void)? = nil)
 }
 public struct SnaplyRedaction {
   public var color: UIKit.UIColor
