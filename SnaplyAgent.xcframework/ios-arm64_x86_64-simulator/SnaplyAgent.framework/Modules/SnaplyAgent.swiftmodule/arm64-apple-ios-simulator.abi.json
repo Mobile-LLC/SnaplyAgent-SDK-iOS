@@ -4236,21 +4236,21 @@
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SessionBanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 1012,
+      "offset": 1085,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SessionBanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 1017,
+      "offset": 1090,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SessionBanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 1064,
+      "offset": 1137,
       "length": 2,
       "value": "15"
     },
@@ -4266,7 +4266,7 @@
       "kind": "StringLiteral",
       "offset": 642,
       "length": 8,
-      "value": "\"2.11.1\""
+      "value": "\"2.12.0\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
