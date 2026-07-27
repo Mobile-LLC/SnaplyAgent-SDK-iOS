@@ -3739,385 +3739,385 @@
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "BooleanLiteral",
-      "offset": 6659,
+      "offset": 6787,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 13729,
+      "offset": 13891,
       "length": 5,
       "value": "\"box\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 13736,
+      "offset": 13898,
       "length": 6,
       "value": "\"fill\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 13987,
+      "offset": 14149,
       "length": 4,
       "value": "0.16"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 14017,
+      "offset": 14179,
       "length": 4,
       "value": "0.11"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 14425,
+      "offset": 14587,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 14442,
+      "offset": 14604,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 14470,
+      "offset": 14632,
       "length": 5,
       "value": "\"box\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 14669,
+      "offset": 14831,
       "length": 3,
       "value": "2.5"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 14724,
+      "offset": 14886,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 14945,
+      "offset": 15107,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "BooleanLiteral",
-      "offset": 14984,
+      "offset": 15146,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 15275,
+      "offset": 15437,
       "length": 10,
       "value": "\"REDACTED\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 15378,
+      "offset": 15540,
       "length": 3,
       "value": "9.5"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 15487,
+      "offset": 15649,
       "length": 3,
       "value": "9.5"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 15493,
+      "offset": 15655,
       "length": 4,
       "value": "0.14"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 15615,
+      "offset": 15777,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 15635,
+      "offset": 15797,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 15897,
+      "offset": 16059,
       "length": 7,
       "value": "\"label\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 16131,
+      "offset": 16293,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 16226,
+      "offset": 16388,
       "length": 10,
       "value": "\"Tap here\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 16261,
+      "offset": 16423,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 16311,
+      "offset": 16473,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 16405,
+      "offset": 16567,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 16446,
+      "offset": 16608,
       "length": 4,
       "value": "0.70"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 16453,
+      "offset": 16615,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 16737,
+      "offset": 16899,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 16743,
+      "offset": 16905,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 16774,
+      "offset": 16936,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 16808,
+      "offset": 16970,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 17217,
+      "offset": 17379,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 17451,
+      "offset": 17613,
       "length": 4,
       "value": "0.09"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 17481,
+      "offset": 17643,
       "length": 4,
       "value": "0.09"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 17519,
+      "offset": 17681,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 17749,
+      "offset": 17911,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 17788,
+      "offset": 17950,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 18167,
+      "offset": 18329,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 18210,
+      "offset": 18372,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 18214,
+      "offset": 18376,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 18231,
+      "offset": 18393,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 18235,
+      "offset": 18397,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 18630,
+      "offset": 18792,
       "length": 3,
       "value": "4.5"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 18839,
+      "offset": 19001,
       "length": 4,
       "value": "0.55"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 18883,
+      "offset": 19045,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "BooleanLiteral",
-      "offset": 19005,
+      "offset": 19167,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 19032,
+      "offset": 19194,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 19085,
+      "offset": 19247,
       "length": 4,
       "value": "0.86"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 19094,
+      "offset": 19256,
       "length": 4,
       "value": "0.86"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 19167,
+      "offset": 19329,
       "length": 4,
       "value": "0.35"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 19200,
+      "offset": 19362,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 19540,
+      "offset": 19702,
       "length": 3,
       "value": "3.6"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 19669,
+      "offset": 19831,
       "length": 3,
       "value": "1.4"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 19701,
+      "offset": 19863,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "BooleanLiteral",
-      "offset": 25830,
+      "offset": 25992,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/LiveOverlay.swift",
       "kind": "Array",
-      "offset": 28677,
+      "offset": 28839,
       "length": 2,
       "value": "[]"
     },
@@ -4266,7 +4266,7 @@
       "kind": "StringLiteral",
       "offset": 642,
       "length": 8,
-      "value": "\"2.12.0\""
+      "value": "\"2.13.0\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyClient.swift",
