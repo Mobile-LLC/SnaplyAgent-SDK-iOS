@@ -69,8 +69,8 @@ extension SwiftUICore.View {
   
 }
 public enum Snaply {
-  public static func configure(key: Swift.String, environment: SnaplyAgent.SnaplyEnvironment = .live, user: SnaplyAgent.SnaplyUser? = nil) async throws
-  public static func configure(key: Swift.String, environment: SnaplyAgent.SnaplyEnvironment = .live, user: SnaplyAgent.SnaplyUser? = nil, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  public static func configure(key: Swift.String, environment: SnaplyAgent.SnaplyEnvironment = .live, user: SnaplyAgent.SnaplyUser? = nil, collectVendorId: Swift.Bool = false) async throws
+  public static func configure(key: Swift.String, environment: SnaplyAgent.SnaplyEnvironment = .live, user: SnaplyAgent.SnaplyUser? = nil, collectVendorId: Swift.Bool = false, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
   public static func on(_ callbacks: SnaplyAgent.SnaplyCallbacks)
   public static func setRedactionStyle(_ style: SnaplyAgent.SnaplyRedaction)
   public static func identify(id: Swift.String, name: Swift.String? = nil, phone: Swift.String? = nil)

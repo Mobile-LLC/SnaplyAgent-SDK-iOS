@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  PrivacyInfo.xcprivacy — SnaplyAgent iOS SDK
+
+  Apple requires a privacy manifest from every third-party SDK, and requires the host app to
+  aggregate ours into its own nutrition label. Two things are declared here:
+
+  1. NSPrivacyAccessedAPITypes — the "required reason" APIs we call. UserDefaults is one; the SDK
+     stores `installId` there (a random UUID scoped to this app + product key) so a device stays
+     recognisable across cold launches. CA92.1 is the correct reason: access is limited to this
+     app's own defaults, never an app-group container.
+
+  2. NSPrivacyCollectedDataTypes — what the SDK sends. NSPrivacyCollectedDataTypeDeviceID is
+     declared because the SDK CAN send the vendor identifier (IDFV), and a manifest must describe
+     what the code is capable of, not what one integration happened to enable. It is opt-in
+     (`Snaply.configure(collectVendorId: true)`) and off by default.
+
+  Every entry is Tracking=false and has NO NSPrivacyCollectedDataTypeTracking domains: nothing here
+  is linked to third-party data or used for advertising. The data serves the support session the
+  user has already consented to, inside the customer's own workspace.
+-->
+<plist version="1.0">
+<dict>
+    <key>NSPrivacyTracking</key>
+    <false/>
+    <key>NSPrivacyTrackingDomains</key>
+    <array/>
+    <key>NSPrivacyAccessedAPITypes</key>
+    <array>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <!-- CA92.1: read/write only this app's own defaults. -->
+                <string>CA92.1</string>
+            </array>
+        </dict>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryDiskSpace</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <!-- E174.1: free space shown to the support agent on the device-health card, so a
+                     "the app keeps failing to save" call can be diagnosed. Displayed, never shipped
+                     onward or used to derive an identifier. -->
+                <string>E174.1</string>
+            </array>
+        </dict>
+    </array>
+    <key>NSPrivacyCollectedDataTypes</key>
+    <array>
+        <dict>
+            <key>NSPrivacyCollectedDataType</key>
+            <string>NSPrivacyCollectedDataTypeDeviceID</string>
+            <key>NSPrivacyCollectedDataTypeLinked</key>
+            <true/>
+            <key>NSPrivacyCollectedDataTypeTracking</key>
+            <false/>
+            <key>NSPrivacyCollectedDataTypePurposes</key>
+            <array>
+                <string>NSPrivacyCollectedDataTypePurposeAppFunctionality</string>
+            </array>
+        </dict>
+        <dict>
+            <key>NSPrivacyCollectedDataType</key>
+            <string>NSPrivacyCollectedDataTypeOtherDiagnosticData</string>
+            <key>NSPrivacyCollectedDataTypeLinked</key>
+            <true/>
+            <key>NSPrivacyCollectedDataTypeTracking</key>
+            <false/>
+            <key>NSPrivacyCollectedDataTypePurposes</key>
+            <array>
+                <string>NSPrivacyCollectedDataTypePurposeAppFunctionality</string>
+            </array>
+        </dict>
+        <dict>
+            <key>NSPrivacyCollectedDataType</key>
+            <string>NSPrivacyCollectedDataTypePhotosorVideos</string>
+            <key>NSPrivacyCollectedDataTypeLinked</key>
+            <true/>
+            <key>NSPrivacyCollectedDataTypeTracking</key>
+            <false/>
+            <key>NSPrivacyCollectedDataTypePurposes</key>
+            <array>
+                <string>NSPrivacyCollectedDataTypePurposeAppFunctionality</string>
+            </array>
+        </dict>
+    </array>
+</dict>
+</plist>
