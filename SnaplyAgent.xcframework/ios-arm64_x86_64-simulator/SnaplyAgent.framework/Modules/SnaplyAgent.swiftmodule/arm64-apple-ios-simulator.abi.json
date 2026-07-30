@@ -4564,16 +4564,16 @@
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Public\/Snaply.swift",
       "kind": "BooleanLiteral",
-      "offset": 1418,
-      "length": 5,
-      "value": "false"
+      "offset": 1602,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Public\/Snaply.swift",
       "kind": "BooleanLiteral",
-      "offset": 1819,
-      "length": 5,
-      "value": "false"
+      "offset": 2002,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
@@ -4587,7 +4587,7 @@
       "kind": "StringLiteral",
       "offset": 642,
       "length": 8,
-      "value": "\"2.16.0\""
+      "value": "\"2.17.0\""
     },
     {
       "filePath": "\/Users\/Gevorg\/workspace\/Projects\/iFix\/Projects\/Snaply Agent\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",

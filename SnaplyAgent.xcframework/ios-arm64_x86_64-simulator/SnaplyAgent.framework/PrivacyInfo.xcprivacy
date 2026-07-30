@@ -13,8 +13,10 @@
 
   2. NSPrivacyCollectedDataTypes — what the SDK sends. NSPrivacyCollectedDataTypeDeviceID is
      declared because the SDK CAN send the vendor identifier (IDFV), and a manifest must describe
-     what the code is capable of, not what one integration happened to enable. It is opt-in
-     (`Snaply.configure(collectVendorId: true)`) and off by default.
+     what the code is capable of, not what one integration happened to enable. It is ON by default;
+     an app opts out with `Snaply.configure(collectVendorId: false)`. Because it is on by default,
+     the host app must declare Identifiers → Device ID in its own App Privacy label — Apple reviews
+     the app, and this manifest covers only the SDK.
 
   Every entry is Tracking=false and has NO NSPrivacyCollectedDataTypeTracking domains: nothing here
   is linked to third-party data or used for advertising. The data serves the support session the

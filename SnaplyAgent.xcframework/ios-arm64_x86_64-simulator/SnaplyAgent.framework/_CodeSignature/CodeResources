@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		opVbkuqOkjMGcyCZDAu6zSXvyLI=
+		/WGxn4ULzPzH4c6ivCDlDL+PpIQ=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2d6DCCY7/oskynD/9on+yd8PziY=
+		rgZXr22x5Mfpk9Mxa9a145ZPA9g=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		TncJqghASDocFshKXFVPSVWV31g=
+		p96TqkcGu0+zy2T+dKUhm+fxOYk=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TncJqghASDocFshKXFVPSVWV31g=
+		p96TqkcGu0+zy2T+dKUhm+fxOYk=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MNSwbhYhnzdGOJmltFwaWlgWgwk=
+		u7ZkXq1/t0h37ew6FcTK6jRsLjQ=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2d6DCCY7/oskynD/9on+yd8PziY=
+		rgZXr22x5Mfpk9Mxa9a145ZPA9g=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		P2PBqrxujcSlgJdkc79yT9j83dU=
+		PzTXFqHLd9O0SNDg5jtC3vJ8DiY=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		P2PBqrxujcSlgJdkc79yT9j83dU=
+		PzTXFqHLd9O0SNDg5jtC3vJ8DiY=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aS4eBW0ktSmyXiBncGN/lc6n1NA=
+		qzLIkNbd8yG1dWFSKb2cHey1Jos=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		gFz5OYoWBpCFXIdURba9dkECk+g=
+		gLWBatL6b66vHTdckgv5Vv6AfTE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -74,14 +74,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FV+aYYXmpalvl6DCYcAdcB68lJO6Ie/0XndyT/Z05+0=
+			4a4/taMufGIVZMb3FojSeulAu6siHSaGF2mH+N/4e0c=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ayhHe+6hni78rJxZb8QTfZt4Mc8Lh6xpjuLGzpidah8=
+			bPUD+GNRipkQsaIzNDmZOVhW78ozpJW1JrYoREBh5qE=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -95,28 +95,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ayhHe+6hni78rJxZb8QTfZt4Mc8Lh6xpjuLGzpidah8=
+			bPUD+GNRipkQsaIzNDmZOVhW78ozpJW1JrYoREBh5qE=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b0Ui0usFJ+EmYeNQZtg+UTvjrrseaLDfM5ewHg61/eM=
+			AAgYoZjYLCeAc9TmVEf9tZtzLOt3DjgmA6FrOA8SQ2A=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FV+aYYXmpalvl6DCYcAdcB68lJO6Ie/0XndyT/Z05+0=
+			4a4/taMufGIVZMb3FojSeulAu6siHSaGF2mH+N/4e0c=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ewNzr3vLk7PS6bJhJCWn4FqBcaggjg4Wn2OT/TBceVg=
+			rjMoZkj8Pm25wZWZVepWkxsIir1HapTmd4oUnMcmKpQ=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -130,14 +130,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ewNzr3vLk7PS6bJhJCWn4FqBcaggjg4Wn2OT/TBceVg=
+			rjMoZkj8Pm25wZWZVepWkxsIir1HapTmd4oUnMcmKpQ=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hQTgEC0peAaLJZG5+jtZ7X2X3eU9ji/PUXIAo716elM=
+			GrkEGz/dLjjCeE6+GJOlDFbLKcp/6ILr8TebJNgZHHU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -151,7 +151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ChAj/G1NmB5zivNjacpzR3PKDnFyISw/Ftau8t55nNw=
+			CKIJNOpc1Qsc1XPrpeDUS70lP7jdMCHJaRk4TiWT26U=
 			</data>
 		</dict>
 	</dict>
