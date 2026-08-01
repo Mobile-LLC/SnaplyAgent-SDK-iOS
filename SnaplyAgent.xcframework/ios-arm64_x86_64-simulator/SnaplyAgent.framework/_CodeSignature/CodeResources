@@ -6,51 +6,51 @@
 	<dict>
 		<key>Headers/SnaplyAgent-Swift.h</key>
 		<data>
-		Dp8Gzx/TAtzlUV8kntNK3byX9+w=
+		RiYQbaoXh5PG73T6yE6Y+A8cT34=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pXjwaXzQIGqmX1/emBbqneQCpS8=
+		NFpTx5emm8rlauIxSZ3uprAwzRM=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		mb4ftQ7mrwo4dFQDhTdvKtJUW84=
+		HeMKAFb6Hd2Q1WaQa3VuTve0/64=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6e2HPWa6rJINS3fmkKoFCFfBSYg=
+		p96TqkcGu0+zy2T+dKUhm+fxOYk=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9Y4ENAc9Yzgz6lLP5CGfLxESuSo=
+		Jtn2Zm0esYgCmkVabWsiMv2OvDw=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6e2HPWa6rJINS3fmkKoFCFfBSYg=
+		p96TqkcGu0+zy2T+dKUhm+fxOYk=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eb967O/yhBMYj2M9pK7HyethTfo=
+		xcu+sYiYRTBTF1jL8D5e2qJxduk=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mb4ftQ7mrwo4dFQDhTdvKtJUW84=
+		HeMKAFb6Hd2Q1WaQa3VuTve0/64=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5MCYpk17F/Gp/roME2J2TCHlfro=
+		PzTXFqHLd9O0SNDg5jtC3vJ8DiY=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		bDY7WjkACV+A9hPeONfH3d8Vppc=
+		gpiTKWtKeYaEZKdVpCIWg1eZbfo=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5MCYpk17F/Gp/roME2J2TCHlfro=
+		PzTXFqHLd9O0SNDg5jtC3vJ8DiY=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7SJAF3nk6Ffytwyrl1htVbnvnXw=
+		8UuG6RVDzC90OcpYy4z1SXIvgX4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,77 +67,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xQQcYaOdPsxu5iPCeC1PBAmEh8unK4eukAO59KzVDBI=
+			RV+2wkjeinZ9DqaLutiFs7HKjuM7yTanKKDVqtW4Xzs=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uz/6OxaAzUpWTfecCX6Rjuzem52p5Oz1zw9ZaulX8Cg=
+			AK4QCeXQaQ/yH/6aV0ym10UmfcwrIJJzwhfH6kkoG9k=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eOn3Oek7peYOzwiWVUpXDAlakulgnJP+kQDUcqk6+N4=
+			bPUD+GNRipkQsaIzNDmZOVhW78ozpJW1JrYoREBh5qE=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4+T7hs8QBQl7Nrr5eNFcNh4VYBifO6sZ2MZSG7jgdyw=
+			Urq75+c3k2bcOnh9agw/XVtirLvYwUyJpMhpl5bou8Q=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eOn3Oek7peYOzwiWVUpXDAlakulgnJP+kQDUcqk6+N4=
+			bPUD+GNRipkQsaIzNDmZOVhW78ozpJW1JrYoREBh5qE=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YAn9QIghu5FNxSYv5YtWmUVDPz8qE4u42rrcobttrt0=
+			I+Y7HsnNKbytvJe0O7ZlykuWMrtaBNCghcWWH0/Nee8=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uz/6OxaAzUpWTfecCX6Rjuzem52p5Oz1zw9ZaulX8Cg=
+			AK4QCeXQaQ/yH/6aV0ym10UmfcwrIJJzwhfH6kkoG9k=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QY5CnsA2TtF1LIxxGZIEbF5SPP3W1GUOArtI/uZgLUE=
+			rjMoZkj8Pm25wZWZVepWkxsIir1HapTmd4oUnMcmKpQ=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0DBYMfBe5jz151wqUqQNDXkc9RJ3aDLAz0vkDsdNR/s=
+			twHSNU71NCjeDrZxhYxQ5hRpnMXjeQiHO/eh9NTbK4U=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QY5CnsA2TtF1LIxxGZIEbF5SPP3W1GUOArtI/uZgLUE=
+			rjMoZkj8Pm25wZWZVepWkxsIir1HapTmd4oUnMcmKpQ=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j0YQnLeVHNmiTG4EL9bXE319m4/O/VaF04S+uSfsvlA=
+			p2LEQ0BgLBV0X9kITEidZA80+JjXZLiW52INA0EIwpI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
