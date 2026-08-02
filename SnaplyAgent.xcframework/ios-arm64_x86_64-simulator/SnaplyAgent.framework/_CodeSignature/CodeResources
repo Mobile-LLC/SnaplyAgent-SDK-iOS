@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IQzCeZnBTviOOr11E9zoSghJVjw=
+		lnDP5IZKzKMXqBiACudN/eY44/A=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		rjy3Dh4vPm2k7PtshSV4MZDm7Gs=
+		qxI0qgfMpux6MRq/5JRgSG2xmS8=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2WVr1uWoWVYy+Fz8shps2C9SsEk=
+		k1ATBHotpbp6qAQobMky64oFX+E=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rjy3Dh4vPm2k7PtshSV4MZDm7Gs=
+		qxI0qgfMpux6MRq/5JRgSG2xmS8=
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pTHmhqpZ+Jopz7SWlgf9cC1STh4=
+		wj1q+WYzYOUfWs9YjBCEgynKrBY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,7 +74,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rdBlg5rRi2Eengg8zktNnDN15mKFxsuwowVR5jpUlO8=
+			CFTa8orIXsn19VKVeWiHHOSDn6bdSbiT6QZ4+wqP3e0=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -102,14 +102,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yycm6lQ4muhMxxZLdskYY2XtGtT5xzk+9J5zaTP2W5Y=
+			jgqZQlfPDgsKkuJ4x021e8aUpq9ATDcqe5O/XCvYLKA=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rdBlg5rRi2Eengg8zktNnDN15mKFxsuwowVR5jpUlO8=
+			CFTa8orIXsn19VKVeWiHHOSDn6bdSbiT6QZ4+wqP3e0=
 			</data>
 		</dict>
 		<key>Modules/SnaplyAgent.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -137,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GQ1VQilsNl5MA5Nw1AqqpmjbbtCTknq8TT2yFs5KEZo=
+			6/ui4SUz0HgIOY3g11sBZnr1SJf0oHwGxPWpxWR4O+Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
