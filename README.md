@@ -8,7 +8,7 @@ server-side.
 Distributed as a compiled `SnaplyAgent.xcframework` (device + simulator slices,
 library-evolution enabled). Requires **iOS 15+**. Zero third-party dependencies.
 
-## Install (Swift Package Manager)
+## Install
 
 In Xcode: **File → Add Package Dependencies…** and enter:
 
@@ -159,6 +159,16 @@ identically when it is null. iOS returns nil before the first unlock after a reb
 - Heartbeats every 25 s; reconnects with exponential backoff (capped at 30 s).
 - This repository ships only the compiled framework. Versions are immutable tags — update by
   bumping the package requirement.
+
+## Develop
+
+There is nothing to build here. This repository ships the compiled `SnaplyAgent.xcframework`
+directly, and each released version is a git tag whose committed framework is that version's build
+— which is why SwiftPM resolves it with no extra setup and no separate artifact download. The Swift
+source lives in a private repository.
+
+To try the SDK rather than read it, [`Examples/SnaplyExample`](Examples/SnaplyExample) is a complete
+app you can run.
 
 ## Docs
 
