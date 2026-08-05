@@ -63,7 +63,7 @@ Snaply.configure(key: "snap_live_…") { error in /* … */ }
 ## Redaction — read this before you ship
 
 **The SDK redacts secure text fields automatically and nothing else.** Everything else on screen is
-captured as-is. Mark anything a support agent should not read:
+captured as-is. Mark whatever you want hidden:
 
 ```swift
 // SwiftUI
@@ -90,10 +90,9 @@ contains the real content.
 
 ### The same rule on every platform
 
-iOS, Android and the web all cover password/secure fields and nothing else. Marking is deliberately
-the host app's decision: a card number is the obvious case, but a booking reference, a medical note
-or another customer's name on the same screen are not, and an SDK that guessed at some of them
-would teach you to trust a guess that is wrong for the rest.
+iOS, Android and the web all cover password/secure fields and nothing else. What counts as
+sensitive is your call — the SDK does not guess, because a guess that is right for one app is
+wrong for the next.
 
 ## What the SDK does and does not capture
 

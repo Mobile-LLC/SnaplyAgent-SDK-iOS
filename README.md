@@ -80,6 +80,37 @@ Each environment has its own products and keys — use the key from the matching
 console. (Within one environment, a product also has Test vs Live keys — `snap_test_…` /
 `snap_live_…` — where test captures are excluded from quota/billing; that's a separate axis.)
 
+## Redaction
+
+Mark any view and it is covered by a **REDACTED box** in every screenshot and live-view frame —
+painted into the image on the device **before it uploads**, so the support agent never sees the
+content. It is not a blur applied on the server: no version of the frame contains the real pixels.
+
+Secure text fields (`isSecureTextEntry`) are redacted automatically. **Nothing else is** — mark
+whatever you want hidden. What counts as sensitive is your call, not the SDK's, and the same rule
+holds on all three SDKs, so one marking pass covers every platform.
+
+```swift
+// SwiftUI
+TextField("Card number", text: $card).snaplyRedact()
+Text(address).snaplyRedact(label: "HIDDEN")
+
+// UIKit
+cardField.snaplyRedact()
+cardField.isSnaplyRedacted = true
+```
+
+You can also set a view's `accessibilityIdentifier` to contain `snaply-redact`, which is useful for
+views built in a storyboard.
+
+Restyle every box at once:
+
+```swift
+Snaply.setRedactionStyle(SnaplyRedaction(color: .darkGray, label: ""))   // label: "" = plain box
+```
+
+A runnable example is in [`Examples/SnaplyExample`](Examples/SnaplyExample).
+
 ## Consent model
 
 **Screenshots** (ask-every-time / per-session products):
