@@ -1,6 +1,6 @@
 # Snaply Agent — iOS example
 
-A complete, runnable integration of the Snaply Agent iOS SDK in a single file.
+A complete, runnable integration of the Snaply Agent iOS SDK. Clone it, drop in your key, run it.
 
 The whole integration is in [`Sources/SnaplyExampleApp.swift`](Sources/SnaplyExampleApp.swift) —
 about fifteen lines of it. Everything else on screen is a fake checkout, there so the SDK has
@@ -117,6 +117,17 @@ Snaply.reset()
 
 Without it the device stays anonymous, and support finds it by the support code the person reads
 out — `Snaply.showSupportCode()`.
+
+## Errors worth handling
+
+`Snaply.configure` reports failures with a `SnaplyError` carrying a `code`:
+
+| `code` | Meaning |
+|---|---|
+| `invalid_key` | The key is wrong, or still the placeholder |
+| `origin_mismatch` | This app's bundle id is not on the product's allowed list |
+| `quota_exceeded` | The workspace is out of screenshots for the cycle |
+
 
 ## Vendor ID
 

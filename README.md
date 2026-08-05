@@ -143,6 +143,14 @@ Failures surface as `SnaplyError` with the backend's error code — e.g. `403 or
 (the key doesn't allow this app's bundle identifier), `403 workspace_suspended`,
 `429 quota_exceeded`, `410 request_expired`.
 
+## Vendor ID
+
+`Snaply.configure(key:…, collectVendorId: false)` opts out of sending the IDFV. It is **on by default**, and the declaration obligation is
+yours, not ours: either declare the identifier entry in your store listing (Apple: Identifiers → Device ID), or pass
+`false`. It is never the identity key — an install-scoped UUID is, and registration behaves
+identically when it is null. iOS returns nil before the first unlock after a reboot; treat nil as normal, never as an error to retry.
+
+
 ## Notes
 
 - The device token authenticates everything after registration and is held in memory only —
@@ -151,3 +159,7 @@ Failures surface as `SnaplyError` with the backend's error code — e.g. `403 or
 - Heartbeats every 25 s; reconnects with exponential backoff (capped at 30 s).
 - This repository ships only the compiled framework. Versions are immutable tags — update by
   bumping the package requirement.
+
+## Docs
+
+Full documentation: <https://snaplyagent.com/docs>
