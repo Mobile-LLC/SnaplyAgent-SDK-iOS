@@ -1,0 +1,27 @@
+name: SnaplyExample
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "15.0"
+packages:
+  SnaplyAgent:
+    # The SDK, straight from this repository. In your own app, point this at the URL instead:
+    #   url: https://github.com/Mobile-LLC/SnaplyAgent-SDK-iOS.git
+    #   from: "2.31.0"
+    path: ../../
+targets:
+  SnaplyExample:
+    type: application
+    platform: iOS
+    sources: [Sources]
+    dependencies:
+      - package: SnaplyAgent
+        product: SnaplyAgent
+    settings:
+      base:
+        # Must match the allowed bundle id on your Snaply product, or registration is refused
+        # with `origin_mismatch`. Change this to your app's real bundle id.
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.snaplyexample
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
