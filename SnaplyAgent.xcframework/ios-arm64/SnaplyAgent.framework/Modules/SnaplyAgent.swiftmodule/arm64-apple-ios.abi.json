@@ -3802,6 +3802,20 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Capture\/Capture.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1059,
+      "length": 3,
+      "value": "720"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Capture\/Capture.swift",
+      "kind": "FloatLiteral",
+      "offset": 1105,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Device\/DeviceHealth.swift",
       "kind": "IntegerLiteral",
       "offset": 1098,
@@ -4730,7 +4744,7 @@
       "kind": "StringLiteral",
       "offset": 1113,
       "length": 8,
-      "value": "\"2.33.0\""
+      "value": "\"2.34.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
@@ -4741,57 +4755,64 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1223,
-      "length": 1,
-      "value": "1"
+      "kind": "FloatLiteral",
+      "offset": 1535,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
+      "kind": "FloatLiteral",
+      "offset": 1541,
+      "length": 3,
+      "value": "3.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1636,
+      "offset": 1956,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "StringLiteral",
-      "offset": 2781,
+      "offset": 3101,
       "length": 218,
       "value": "\"Support will see your screen live and can point, highlight, and mark things on it to guide you. They may save a snapshot or record the session to help with your issue. A red indicator stays on while you’re sharing.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "StringLiteral",
-      "offset": 3254,
+      "offset": 3574,
       "length": 181,
       "value": "\"Support wants to tap, scroll, and type in {company} to help fix your issue. You’ll watch it happen and can take back control at any time. Fields with sensitive data stay locked.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 4033,
+      "offset": 4353,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4061,
+      "offset": 4381,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4993,
+      "offset": 5313,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 7598,
+      "offset": 7918,
       "length": 4,
       "value": "true"
     },
