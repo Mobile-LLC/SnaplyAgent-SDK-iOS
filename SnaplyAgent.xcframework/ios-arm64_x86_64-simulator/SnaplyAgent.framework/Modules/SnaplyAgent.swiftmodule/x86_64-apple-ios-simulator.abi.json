@@ -3804,14 +3804,14 @@
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Capture\/Capture.swift",
       "kind": "IntegerLiteral",
-      "offset": 1059,
-      "length": 3,
-      "value": "720"
+      "offset": 1388,
+      "length": 4,
+      "value": "1280"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Capture\/Capture.swift",
       "kind": "FloatLiteral",
-      "offset": 1105,
+      "offset": 1435,
       "length": 3,
       "value": "0.7"
     },
@@ -4744,7 +4744,7 @@
       "kind": "StringLiteral",
       "offset": 1113,
       "length": 8,
-      "value": "\"2.34.0\""
+      "value": "\"2.35.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
