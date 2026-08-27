@@ -77,6 +77,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3777,422 +3787,436 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/DeviceNotice.swift",
+      "kind": "StringLiteral",
+      "offset": 1112,
+      "length": 61,
+      "value": "\"Couldn’t send the screenshot — nothing left your device\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/DeviceNotice.swift",
+      "kind": "FloatLiteral",
+      "offset": 1223,
+      "length": 3,
+      "value": "5.5"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 828,
+      "offset": 1033,
       "length": 3,
       "value": "1.8"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 885,
+      "offset": 1090,
       "length": 3,
       "value": "1.2"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 942,
+      "offset": 1147,
       "length": 3,
       "value": "5.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "Array",
-      "offset": 1349,
+      "offset": 1554,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "BooleanLiteral",
-      "offset": 2288,
+      "offset": 2493,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "BooleanLiteral",
-      "offset": 9164,
+      "offset": 9369,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 16583,
+      "offset": 16788,
       "length": 5,
       "value": "\"box\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 16590,
+      "offset": 16795,
       "length": 6,
       "value": "\"fill\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 16841,
+      "offset": 17046,
       "length": 4,
       "value": "0.16"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 16871,
+      "offset": 17076,
       "length": 4,
       "value": "0.11"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 17279,
+      "offset": 17484,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 17296,
+      "offset": 17501,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 17324,
+      "offset": 17529,
       "length": 5,
       "value": "\"box\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 17523,
+      "offset": 17728,
       "length": 3,
       "value": "2.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 17578,
+      "offset": 17783,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 17799,
+      "offset": 18004,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "BooleanLiteral",
-      "offset": 17838,
+      "offset": 18043,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 18129,
+      "offset": 18334,
       "length": 10,
       "value": "\"REDACTED\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 18232,
+      "offset": 18437,
       "length": 3,
       "value": "9.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 18343,
+      "offset": 18548,
       "length": 3,
       "value": "9.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 18349,
+      "offset": 18554,
       "length": 4,
       "value": "0.14"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 18471,
+      "offset": 18676,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 18491,
+      "offset": 18696,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 18753,
+      "offset": 18958,
       "length": 7,
       "value": "\"label\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 18987,
+      "offset": 19192,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 19082,
+      "offset": 19287,
       "length": 10,
       "value": "\"Tap here\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 19117,
+      "offset": 19322,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 19167,
+      "offset": 19372,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 19270,
+      "offset": 19475,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 19311,
+      "offset": 19516,
       "length": 4,
       "value": "0.70"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 19318,
+      "offset": 19523,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 19602,
+      "offset": 19807,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 19608,
+      "offset": 19813,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 19639,
+      "offset": 19844,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 19673,
+      "offset": 19878,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 20082,
+      "offset": 20287,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 20316,
+      "offset": 20521,
       "length": 4,
       "value": "0.09"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 20346,
+      "offset": 20551,
       "length": 4,
       "value": "0.09"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 20384,
+      "offset": 20589,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 20614,
+      "offset": 20819,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 20653,
+      "offset": 20858,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 21032,
+      "offset": 21237,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 21075,
+      "offset": 21280,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 21079,
+      "offset": 21284,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 21096,
+      "offset": 21301,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 21100,
+      "offset": 21305,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 21495,
+      "offset": 21700,
       "length": 3,
       "value": "4.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 21704,
+      "offset": 21909,
       "length": 4,
       "value": "0.55"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 21748,
+      "offset": 21953,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "BooleanLiteral",
-      "offset": 21870,
+      "offset": 22075,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 21897,
+      "offset": 22102,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 21950,
+      "offset": 22155,
       "length": 4,
       "value": "0.86"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 21959,
+      "offset": 22164,
       "length": 4,
       "value": "0.86"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 22063,
+      "offset": 22268,
       "length": 4,
       "value": "0.35"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 22096,
+      "offset": 22301,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 22436,
+      "offset": 22641,
       "length": 3,
       "value": "3.6"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 22565,
+      "offset": 22770,
       "length": 3,
       "value": "1.4"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 22597,
+      "offset": 22802,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "BooleanLiteral",
-      "offset": 32828,
+      "offset": 33033,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/LiveOverlay.swift",
       "kind": "Array",
-      "offset": 35640,
+      "offset": 36165,
       "length": 2,
       "value": "[]"
     },
@@ -4493,56 +4517,63 @@
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Design\/Palette.swift",
       "kind": "StringLiteral",
-      "offset": 5320,
+      "offset": 5546,
+      "length": 9,
+      "value": "\"#FBF1D8\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Design\/Palette.swift",
+      "kind": "StringLiteral",
+      "offset": 5665,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Design\/Palette.swift",
       "kind": "StringLiteral",
-      "offset": 5465,
+      "offset": 5810,
       "length": 9,
       "value": "\"#6FCF9B\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Design\/Palette.swift",
       "kind": "StringLiteral",
-      "offset": 5682,
+      "offset": 6027,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Design\/Palette.swift",
       "kind": "FloatLiteral",
-      "offset": 5700,
+      "offset": 6045,
       "length": 4,
       "value": "0.18"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Design\/Palette.swift",
       "kind": "StringLiteral",
-      "offset": 5755,
+      "offset": 6100,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Design\/Palette.swift",
       "kind": "FloatLiteral",
-      "offset": 5773,
+      "offset": 6118,
       "length": 4,
       "value": "0.24"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Design\/Palette.swift",
       "kind": "StringLiteral",
-      "offset": 6386,
+      "offset": 6731,
       "length": 9,
       "value": "\"#E23B37\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Design\/Palette.swift",
       "kind": "IntegerLiteral",
-      "offset": 6956,
+      "offset": 7301,
       "length": 1,
       "value": "1"
     },
@@ -4691,7 +4722,7 @@
       "kind": "StringLiteral",
       "offset": 1113,
       "length": 8,
-      "value": "\"2.36.7\""
+      "value": "\"2.37.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
