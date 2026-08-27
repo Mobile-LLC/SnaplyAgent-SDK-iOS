@@ -3046,80 +3046,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "development",
-            "printedName": "development",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(SnaplyAgent.SnaplyEnvironment.Type) -> SnaplyAgent.SnaplyEnvironment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SnaplyEnvironment",
-                    "printedName": "SnaplyAgent.SnaplyEnvironment",
-                    "usr": "s:11SnaplyAgent0A11EnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "SnaplyAgent.SnaplyEnvironment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SnaplyEnvironment",
-                        "printedName": "SnaplyAgent.SnaplyEnvironment",
-                        "usr": "s:11SnaplyAgent0A11EnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11SnaplyAgent0A11EnvironmentO11developmentyA2CmF",
-            "mangledName": "$s11SnaplyAgent0A11EnvironmentO11developmentyA2CmF",
-            "moduleName": "SnaplyAgent"
-          },
-          {
-            "kind": "Var",
-            "name": "staging",
-            "printedName": "staging",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(SnaplyAgent.SnaplyEnvironment.Type) -> SnaplyAgent.SnaplyEnvironment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SnaplyEnvironment",
-                    "printedName": "SnaplyAgent.SnaplyEnvironment",
-                    "usr": "s:11SnaplyAgent0A11EnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "SnaplyAgent.SnaplyEnvironment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SnaplyEnvironment",
-                        "printedName": "SnaplyAgent.SnaplyEnvironment",
-                        "usr": "s:11SnaplyAgent0A11EnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11SnaplyAgent0A11EnvironmentO7stagingyA2CmF",
-            "mangledName": "$s11SnaplyAgent0A11EnvironmentO7stagingyA2CmF",
-            "moduleName": "SnaplyAgent"
-          },
-          {
-            "kind": "Var",
             "name": "live",
             "printedName": "live",
             "children": [
@@ -4742,14 +4668,14 @@
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Public\/Snaply.swift",
       "kind": "BooleanLiteral",
-      "offset": 1602,
+      "offset": 1660,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Public\/Snaply.swift",
       "kind": "BooleanLiteral",
-      "offset": 2002,
+      "offset": 2060,
       "length": 4,
       "value": "true"
     },
@@ -4765,7 +4691,7 @@
       "kind": "StringLiteral",
       "offset": 1113,
       "length": 8,
-      "value": "\"2.36.4\""
+      "value": "\"2.36.5\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
@@ -4799,41 +4725,55 @@
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "StringLiteral",
       "offset": 3101,
-      "length": 218,
-      "value": "\"Support will see your screen live and can point, highlight, and mark things on it to guide you. They may save a snapshot or record the session to help with your issue. A red indicator stays on while you’re sharing.\""
+      "length": 98,
+      "value": "\"Support will see your screen live and can point, highlight, and mark things on it to guide you. \""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "StringLiteral",
-      "offset": 3574,
+      "offset": 3214,
+      "length": 74,
+      "value": "\"They may save a snapshot or record the session to help with your issue. \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3303,
+      "length": 50,
+      "value": "\"A red indicator stays on while you’re sharing.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3608,
       "length": 181,
       "value": "\"Support wants to tap, scroll, and type in {company} to help fix your issue. You’ll watch it happen and can take back control at any time. Fields with sensitive data stay locked.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 4502,
+      "offset": 4536,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4530,
+      "offset": 4564,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 5462,
+      "offset": 5496,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8067,
+      "offset": 8101,
       "length": 4,
       "value": "true"
     },

@@ -80,8 +80,6 @@ public enum Snaply {
   public static func stop()
 }
 public enum SnaplyEnvironment {
-  case development
-  case staging
   case live
   case custom(Foundation.URL)
   public var url: Foundation.URL {
