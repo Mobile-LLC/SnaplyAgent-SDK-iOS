@@ -6,6 +6,16 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3759,6 +3769,27 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/RemoteControl\/AccessibilityActivation.swift",
+      "kind": "StringLiteral",
+      "offset": 1977,
+      "length": 36,
+      "value": "\"AXSApplicationAccessibilityEnabled\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/RemoteControl\/AccessibilityActivation.swift",
+      "kind": "StringLiteral",
+      "offset": 2079,
+      "length": 39,
+      "value": "\"AXSApplicationAccessibilitySetEnabled\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/RemoteControl\/AccessibilityActivation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2179,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Capture\/Capture.swift",
       "kind": "IntegerLiteral",
       "offset": 1388,
@@ -4722,7 +4753,7 @@
       "kind": "StringLiteral",
       "offset": 1113,
       "length": 8,
-      "value": "\"2.37.0\""
+      "value": "\"2.37.1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
