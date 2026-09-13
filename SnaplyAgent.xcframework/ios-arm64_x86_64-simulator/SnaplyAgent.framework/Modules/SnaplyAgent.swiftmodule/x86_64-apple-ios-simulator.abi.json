@@ -4761,7 +4761,7 @@
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Public\/Snaply.swift",
       "kind": "BooleanLiteral",
-      "offset": 2060,
+      "offset": 2687,
       "length": 4,
       "value": "true"
     },
@@ -4777,7 +4777,7 @@
       "kind": "StringLiteral",
       "offset": 1113,
       "length": 8,
-      "value": "\"2.37.5\""
+      "value": "\"2.38.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
