@@ -2641,7 +2641,7 @@
           {
             "kind": "Function",
             "name": "configure",
-            "printedName": "configure(key:environment:user:collectVendorId:swiftUIRemoteControl:)",
+            "printedName": "configure(key:environment:user:collectVendorId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2682,18 +2682,11 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11SnaplyAgent0A0O9configure3key11environment4user15collectVendorId20swiftUIRemoteControlySS_AA0A11EnvironmentOAA0A4UserVSgS2btYaKFZ",
-            "mangledName": "$s11SnaplyAgent0A0O9configure3key11environment4user15collectVendorId20swiftUIRemoteControlySS_AA0A11EnvironmentOAA0A4UserVSgS2btYaKFZ",
+            "usr": "s:11SnaplyAgent0A0O9configure3key11environment4user15collectVendorIdySS_AA0A11EnvironmentOAA0A4UserVSgSbtYaKFZ",
+            "mangledName": "$s11SnaplyAgent0A0O9configure3key11environment4user15collectVendorIdySS_AA0A11EnvironmentOAA0A4UserVSgSbtYaKFZ",
             "moduleName": "SnaplyAgent",
             "static": true,
             "declAttributes": [
@@ -2706,7 +2699,7 @@
           {
             "kind": "Function",
             "name": "configure",
-            "printedName": "configure(key:environment:user:collectVendorId:swiftUIRemoteControl:completion:)",
+            "printedName": "configure(key:environment:user:collectVendorId:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2740,13 +2733,6 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -2792,8 +2778,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11SnaplyAgent0A0O9configure3key11environment4user15collectVendorId20swiftUIRemoteControl10completionySS_AA0A11EnvironmentOAA0A4UserVSgS2bys5Error_pSgcSgtFZ",
-            "mangledName": "$s11SnaplyAgent0A0O9configure3key11environment4user15collectVendorId20swiftUIRemoteControl10completionySS_AA0A11EnvironmentOAA0A4UserVSgS2bys5Error_pSgcSgtFZ",
+            "usr": "s:11SnaplyAgent0A0O9configure3key11environment4user15collectVendorId10completionySS_AA0A11EnvironmentOAA0A4UserVSgSbys5Error_pSgcSgtFZ",
+            "mangledName": "$s11SnaplyAgent0A0O9configure3key11environment4user15collectVendorId10completionySS_AA0A11EnvironmentOAA0A4UserVSgSbys5Error_pSgcSgtFZ",
             "moduleName": "SnaplyAgent",
             "static": true,
             "declAttributes": [
@@ -4768,30 +4754,16 @@
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Public\/Snaply.swift",
       "kind": "BooleanLiteral",
-      "offset": 2528,
+      "offset": 2060,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Public\/Snaply.swift",
       "kind": "BooleanLiteral",
-      "offset": 2674,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Public\/Snaply.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3870,
+      "offset": 3087,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Public\/Snaply.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3913,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
@@ -4805,7 +4777,7 @@
       "kind": "StringLiteral",
       "offset": 1113,
       "length": 8,
-      "value": "\"2.39.0\""
+      "value": "\"2.40.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
@@ -4887,23 +4859,9 @@
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 5828,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8603,
+      "offset": 8262,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8638,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/SnaplyLog.swift",
