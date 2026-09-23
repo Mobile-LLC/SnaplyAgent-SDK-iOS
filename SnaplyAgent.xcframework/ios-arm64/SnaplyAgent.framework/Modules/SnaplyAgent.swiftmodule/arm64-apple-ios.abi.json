@@ -77,6 +77,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "SnaplyAgent"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3823,16 +3840,30 @@
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Device\/DeviceHealth.swift",
       "kind": "IntegerLiteral",
-      "offset": 1098,
+      "offset": 1221,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Device\/DeviceHealth.swift",
       "kind": "BooleanLiteral",
-      "offset": 9501,
+      "offset": 9679,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Device\/DeviceIntegrity.swift",
+      "kind": "Array",
+      "offset": 3448,
+      "length": 567,
+      "value": "[\"\/Applications\/Cydia.app\", \"\/Applications\/Sileo.app\", \"\/Applications\/Zebra.app\", \"\/Library\/MobileSubstrate\/MobileSubstrate.dylib\", \"\/usr\/sbin\/sshd\", \"\/usr\/bin\/ssh\", \"\/bin\/bash\", \"\/bin\/sh\", \"\/etc\/apt\", \"\/private\/var\/lib\/apt\", \"\/private\/var\/lib\/cydia\", \"\/var\/jb\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Device\/DeviceIntegrity.swift",
+      "kind": "Array",
+      "offset": 4238,
+      "length": 210,
+      "value": "[\"MobileSubstrate\", \"SubstrateLoader\", \"libsubstitute\", \"libsubstrate\", \"SubstrateInserter\", \"TweakInject\", \"libhooker\", \"RocketBootstrap\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/DeviceNotice.swift",
@@ -4777,7 +4808,7 @@
       "kind": "StringLiteral",
       "offset": 1113,
       "length": 8,
-      "value": "\"2.41.0\""
+      "value": "\"2.42.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
@@ -4859,7 +4890,7 @@
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8262,
+      "offset": 8570,
       "length": 4,
       "value": "true"
     },
