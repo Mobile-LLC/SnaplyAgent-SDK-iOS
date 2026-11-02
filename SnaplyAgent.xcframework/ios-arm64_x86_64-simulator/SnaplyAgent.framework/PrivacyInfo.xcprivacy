@@ -50,6 +50,19 @@
                 <string>E174.1</string>
             </array>
         </dict>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategorySystemBootTime</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <!-- 35F9.1: ProcessInfo.systemUptime measures elapsed time inside the SDK — the live
+                     frame pacing in SnaplyClient and the whole-screen capture's frame clock — and is
+                     never sent, shown or combined into an identifier. Declared since 2.44.1 (audit
+                     SEC-2610-71): 2.43.1 and 2.44.0 called it undeclared, and every host app's
+                     upload failed with ITMS-91053. -->
+                <string>35F9.1</string>
+            </array>
+        </dict>
     </array>
     <key>NSPrivacyCollectedDataTypes</key>
     <array>

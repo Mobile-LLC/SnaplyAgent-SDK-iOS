@@ -77,7 +77,7 @@ public enum Snaply {
   public static func configure(key: Swift.String, environment: SnaplyAgent.SnaplyEnvironment = .live, user: SnaplyAgent.SnaplyUser? = nil, collectVendorId: Swift.Bool = true, language: Swift.String = "en", completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
   public static func on(_ callbacks: SnaplyAgent.SnaplyCallbacks)
   public static func setRedactionStyle(_ style: SnaplyAgent.SnaplyRedaction)
-  public static func identify(id: Swift.String, name: Swift.String? = nil, phone: Swift.String? = nil)
+  public static func identify(id: Swift.String, name: Swift.String? = nil, phone: Swift.String? = nil, identitySignature: Swift.String? = nil)
   public static func reset()
   public static func supportCode() -> Swift.String?
   public static func showSupportCode()

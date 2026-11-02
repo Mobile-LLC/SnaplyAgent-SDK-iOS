@@ -2918,7 +2918,7 @@
           {
             "kind": "Function",
             "name": "identify",
-            "printedName": "identify(id:name:phone:)",
+            "printedName": "identify(id:name:phone:identitySignature:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2960,11 +2960,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11SnaplyAgent0A0O8identify2id4name5phoneySS_SSSgAHtFZ",
-            "mangledName": "$s11SnaplyAgent0A0O8identify2id4name5phoneySS_SSSgAHtFZ",
+            "usr": "s:11SnaplyAgent0A0O8identify2id4name5phone17identitySignatureySS_SSSgA2ItFZ",
+            "mangledName": "$s11SnaplyAgent0A0O8identify2id4name5phone17identitySignatureySS_SSSgA2ItFZ",
             "moduleName": "SnaplyAgent",
             "static": true,
             "declAttributes": [
@@ -3966,6 +3981,27 @@
       "value": "0.7"
     },
     {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/ConsentPrompt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16051,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/ConsentPrompt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16055,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/ConsentPrompt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16062,
+      "length": 4,
+      "value": "1024"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Device\/DeviceHealth.swift",
       "kind": "IntegerLiteral",
       "offset": 1221,
@@ -4918,6 +4954,13 @@
       "value": "15"
     },
     {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/SessionBanner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1191,
+      "length": 1,
+      "value": "4"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Public\/Snaply.swift",
       "kind": "BooleanLiteral",
       "offset": 2745,
@@ -4978,7 +5021,7 @@
       "kind": "StringLiteral",
       "offset": 1113,
       "length": 8,
-      "value": "\"2.44.0\""
+      "value": "\"2.45.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
@@ -5011,70 +5054,91 @@
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "StringLiteral",
-      "offset": 3445,
+      "offset": 4071,
       "length": 10,
       "value": "\"This app\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 4647,
+      "offset": 5273,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4675,
+      "offset": 5301,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 5823,
+      "offset": 6508,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8897,
+      "offset": 6709,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8967,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8971,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10001,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 10159,
+      "offset": 11263,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "FloatLiteral",
-      "offset": 62446,
+      "offset": 64486,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 68244,
+      "offset": 70284,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "StringLiteral",
-      "offset": 68253,
+      "offset": 70293,
       "length": 16,
       "value": "\"not_configured\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "StringLiteral",
-      "offset": 68280,
+      "offset": 70320,
       "length": 36,
       "value": "\"Call Snaply.configure(key:) first.\""
     },
@@ -5214,77 +5278,84 @@
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Localization\/SnaplyKey.swift",
       "kind": "StringLiteral",
-      "offset": 1477,
+      "offset": 1474,
+      "length": 28,
+      "value": "\"snaply_screenshots_stopped\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Localization\/SnaplyKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1536,
       "length": 45,
       "value": "\"snaply_couldnt_send_screenshot_nothing_left\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Localization\/SnaplyKey.swift",
       "kind": "StringLiteral",
-      "offset": 1565,
+      "offset": 1624,
       "length": 43,
       "value": "\"snaply_support_is_controlling_your_screen\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Localization\/SnaplyKey.swift",
       "kind": "StringLiteral",
-      "offset": 1636,
+      "offset": 1695,
       "length": 26,
       "value": "\"snaply_take_back_control\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Localization\/SnaplyKey.swift",
       "kind": "StringLiteral",
-      "offset": 1696,
+      "offset": 1755,
       "length": 33,
       "value": "\"snaply_sharing_your_screen_live\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Localization\/SnaplyKey.swift",
       "kind": "StringLiteral",
-      "offset": 1780,
+      "offset": 1839,
       "length": 44,
       "value": "\"snaply_sharing_your_screen_live_support_is\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Localization\/SnaplyKey.swift",
       "kind": "StringLiteral",
-      "offset": 1841,
+      "offset": 1900,
       "length": 13,
       "value": "\"snaply_stop\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Localization\/SnaplyKey.swift",
       "kind": "StringLiteral",
-      "offset": 1895,
+      "offset": 1954,
       "length": 42,
       "value": "\"snaply_snapshot_of_your_screen_was_saved\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Localization\/SnaplyKey.swift",
       "kind": "StringLiteral",
-      "offset": 1983,
+      "offset": 2042,
       "length": 47,
       "value": "\"snaply_snapshot_with_supports_marks_was_saved\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Localization\/SnaplyKey.swift",
       "kind": "StringLiteral",
-      "offset": 2071,
+      "offset": 2130,
       "length": 41,
       "value": "\"snaply_support_is_recording_your_screen\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Localization\/SnaplyKey.swift",
       "kind": "StringLiteral",
-      "offset": 2141,
+      "offset": 2200,
       "length": 27,
       "value": "\"snaply_consent_live_share\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Localization\/SnaplyKey.swift",
       "kind": "StringLiteral",
-      "offset": 2201,
+      "offset": 2260,
       "length": 31,
       "value": "\"snaply_consent_remote_control\""
     },
