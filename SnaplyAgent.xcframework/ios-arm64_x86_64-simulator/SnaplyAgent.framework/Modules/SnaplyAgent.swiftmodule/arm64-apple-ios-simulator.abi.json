@@ -4943,6 +4943,27 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Capture\/Redaction.swift",
+      "kind": "Array",
+      "offset": 4626,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Capture\/Redaction.swift",
+      "kind": "StringLiteral",
+      "offset": 4666,
+      "length": 8,
+      "value": "\"ios_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Capture\/Redaction.swift",
+      "kind": "StringLiteral",
+      "offset": 4705,
+      "length": 10,
+      "value": "\"ios_text\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/UI\/SessionBanner.swift",
       "kind": "IntegerLiteral",
       "offset": 1085,
@@ -5031,7 +5052,7 @@
       "kind": "StringLiteral",
       "offset": 1113,
       "length": 8,
-      "value": "\"2.46.0\""
+      "value": "\"2.47.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
@@ -5127,28 +5148,28 @@
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "FloatLiteral",
-      "offset": 68159,
+      "offset": 68904,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 73957,
+      "offset": 74702,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "StringLiteral",
-      "offset": 73966,
+      "offset": 74711,
       "length": 16,
       "value": "\"not_configured\""
     },
     {
       "filePath": "\/Users\/runner\/work\/SnaplyAgent-SDK-iOS-Dev\/SnaplyAgent-SDK-iOS-Dev\/Sources\/SnaplyAgent\/Client\/SnaplyClient.swift",
       "kind": "StringLiteral",
-      "offset": 73993,
+      "offset": 74738,
       "length": 36,
       "value": "\"Call Snaply.configure(key:) first.\""
     },
