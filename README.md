@@ -42,7 +42,7 @@ let code = Snaply.supportCode()
 // …or let the SDK present it in the designed popup (works for identified users too):
 Snaply.showSupportCode()
 
-// Detach the user / rotate the support code (e.g. on logout):
+// Detach the user (e.g. on logout). The device keeps its support code:
 Snaply.reset()
 
 // Events:
