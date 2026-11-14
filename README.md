@@ -159,6 +159,11 @@ identically when it is null. iOS returns nil before the first unlock after a reb
 - Heartbeats every 25 s; reconnects with exponential backoff (capped at 30 s).
 - This repository ships only the compiled framework. Versions are immutable tags — update by
   bumping the package requirement.
+- Remote control of SwiftUI controls relies on a private Apple API resolved at runtime; the docs'
+  *SwiftUI remote control* card says what that means for your App Store submission. From 2.49.1 the
+  SDK uses it only up to the newest iOS it was measured on, which is iOS 27 in this release. On a
+  newer iOS, UIKit controls still answer to remote control and SwiftUI controls may not until you
+  update the SDK.
 
 ## Develop
 
