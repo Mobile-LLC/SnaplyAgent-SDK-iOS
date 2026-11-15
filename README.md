@@ -35,6 +35,7 @@ try await Snaply.configure(key: "snap_live_…")
 // as the `user:` parameter on configure. phone is optional and E.164 — it lets the
 // screen-pop API resolve an incoming caller-ID to this user.
 Snaply.identify(id: "u_123", name: "Maya Kowalski", phone: "+14155550142")
+// Identifying a different user ends an open screenshot approval — support asks again. A running live share goes on.
 
 // Every device has a permanent support code the caller can read to the support agent:
 let code = Snaply.supportCode()
