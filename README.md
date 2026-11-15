@@ -19,7 +19,7 @@ https://github.com/Mobile-LLC/SnaplyAgent-SDK-iOS
 Or in `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/Mobile-LLC/SnaplyAgent-SDK-iOS", from: "2.49.1")
+.package(url: "https://github.com/Mobile-LLC/SnaplyAgent-SDK-iOS", from: "2.50.0")
 ```
 
 ## Usage
