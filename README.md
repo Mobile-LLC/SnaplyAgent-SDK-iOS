@@ -59,23 +59,30 @@ Snaply.stop()
 
 ## Environments
 
-`environment:` selects which Snaply deployment to talk to — they are **separate backends**
-(each its own database):
+`environment:` selects which Snaply server to talk to:
 
 | `SnaplyEnvironment` | |
 | --- | --- |
 | `.live` (default) | production — a standard integration never sets `environment:` |
-| `.staging` | Snaply's staging deployment |
-| `.development` | Snaply's development deployment |
-| `.custom(url)` | self-hosted |
+| `.custom(url, serverKeys:)` | a self-hosted server; `serverKeys` are that server's master keys (public halves, base64url) |
 
 ```swift
 #if DEBUG
-try await Snaply.configure(key: "…", environment: .development)
+try await Snaply.configure(
+    key: "…",
+    environment: .custom(URL(string: "https://your-host")!, serverKeys: ["<your server's master public key>"])
+)
 #else
 try await Snaply.configure(key: "…")   // .live
 #endif
 ```
+
+**The sealed channel (from 2.52.0).** Everything the SDK and its server exchange — requests, answers, the
+socket — is sealed to a key the server publishes and a master key vouches for: a second layer of encryption
+inside HTTPS, with no unsealed fallback and nothing to configure. The live server's master keys are built into
+the SDK. A `.custom` server is given its own with its address and is not reached without them; for a Snaply
+stack on your own machine pass `SnaplyEnvironment.developmentMaster` (a published key, a secret on no machine —
+never use it with a remote address).
 
 Each environment has its own products and keys — use the key from the matching environment's
 console. (Within one environment, a product also has Test vs Live keys — `snap_test_…` /
@@ -143,6 +150,10 @@ A runnable example is in [`Examples/SnaplyExample`](Examples/SnaplyExample).
 Failures surface as `SnaplyError` with the backend's error code — e.g. `403 origin_mismatch`
 (the key doesn't allow this app's bundle identifier), `403 workspace_suspended`,
 `429 quota_exceeded`, `410 request_expired`.
+
+Three come from the SDK itself, with status `0`, reported like any failed `configure`: `no_master_key` (no
+master key for this server, nothing sent), `key_list_unavailable` (the server's signed key list could not be
+fetched or was not accepted, nothing sent) and `answer_unreadable` (the server's answer did not open).
 
 ## Vendor ID
 
