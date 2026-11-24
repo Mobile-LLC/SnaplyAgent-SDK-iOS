@@ -34,26 +34,6 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func snaplyRedact(color: UIKit.UIColor? = nil, label: Swift.String? = nil, labelColor: UIKit.UIColor? = nil) -> some SwiftUICore.View
   
 }
-public enum Snaply {
-  public static func configure(key: Swift.String, environment: SnaplyAgent.SnaplyEnvironment = .live, user: SnaplyAgent.SnaplyUser? = nil, collectVendorId: Swift.Bool = true, language: Swift.String = "en") async throws
-  public static func configure(key: Swift.String, environment: SnaplyAgent.SnaplyEnvironment = .live, user: SnaplyAgent.SnaplyUser? = nil, collectVendorId: Swift.Bool = true, language: Swift.String = "en", completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
-  public static func on(_ callbacks: SnaplyAgent.SnaplyCallbacks)
-  public static func setRedactionStyle(_ style: SnaplyAgent.SnaplyRedaction)
-  @_Concurrency.MainActor public static func registerHostedView(_ view: UIKit.UIView, host: (any SnaplyAgent.SnaplyHostedView)?)
-  public static func identify(id: Swift.String, name: Swift.String? = nil, phone: Swift.String? = nil, identitySignature: Swift.String? = nil)
-  public static func reset()
-  public static func supportCode() -> Swift.String?
-  public static func showSupportCode()
-  public static func stop()
-}
-public enum SnaplyEnvironment {
-  case live
-  case custom(Foundation.URL, serverKeys: [Swift.String])
-  public static let developmentMaster: Swift.String
-  public var url: Foundation.URL {
-    get
-  }
-}
 public protocol SnaplyHostedView : AnyObject {
   var providesSnapshot: Swift.Bool { get }
   var controlMode: SnaplyAgent.SnaplyHostedControlMode { get }
@@ -119,6 +99,18 @@ public struct SnaplyRedactionRule {
   public let value: Swift.String
   public let label: Swift.String?
 }
+public enum Snaply {
+  public static func configure(key: Swift.String, environment: SnaplyAgent.SnaplyEnvironment = .live, user: SnaplyAgent.SnaplyUser? = nil, collectVendorId: Swift.Bool = true, language: Swift.String = "en") async throws
+  public static func configure(key: Swift.String, environment: SnaplyAgent.SnaplyEnvironment = .live, user: SnaplyAgent.SnaplyUser? = nil, collectVendorId: Swift.Bool = true, language: Swift.String = "en", completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  public static func on(_ callbacks: SnaplyAgent.SnaplyCallbacks)
+  public static func setRedactionStyle(_ style: SnaplyAgent.SnaplyRedaction)
+  @_Concurrency.MainActor public static func registerHostedView(_ view: UIKit.UIView, host: (any SnaplyAgent.SnaplyHostedView)?)
+  public static func identify(id: Swift.String, name: Swift.String? = nil, phone: Swift.String? = nil, identitySignature: Swift.String? = nil)
+  public static func reset()
+  public static func supportCode() -> Swift.String?
+  public static func showSupportCode()
+  public static func stop()
+}
 public enum CaptureMode : Swift.String, Swift.Codable {
   case askEveryTime
   case perSession
@@ -158,6 +150,14 @@ public struct SnaplyCallbacks {
   public var onRemoteControl: ((Swift.Bool) -> Swift.Void)?
   public var onLiveEnded: ((SnaplyAgent.LiveSession) -> Swift.Void)?
   public init(onRequestShown: (() -> Swift.Void)? = nil, onAllowed: ((SnaplyAgent.CaptureResult) -> Swift.Void)? = nil, onDenied: (() -> Swift.Void)? = nil, onExpired: (() -> Swift.Void)? = nil, onError: ((any Swift.Error) -> Swift.Void)? = nil, onRemoteControl: ((Swift.Bool) -> Swift.Void)? = nil, onLiveEnded: ((SnaplyAgent.LiveSession) -> Swift.Void)? = nil)
+}
+public enum SnaplyEnvironment {
+  case live
+  case custom(Foundation.URL, serverKeys: [Swift.String])
+  public static let developmentMaster: Swift.String
+  public var url: Foundation.URL {
+    get
+  }
 }
 extension SnaplyAgent.SnaplyHostedControlMode : Swift.Equatable {}
 extension SnaplyAgent.SnaplyHostedControlMode : Swift.Hashable {}
