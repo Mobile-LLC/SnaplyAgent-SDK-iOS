@@ -117,7 +117,7 @@ Restyle every box at once:
 Snaply.setRedactionStyle(SnaplyRedaction(color: .darkGray, label: ""))   // label: "" = plain box
 ```
 
-A runnable example is in [`Examples/SnaplyExample`](Examples/SnaplyExample).
+A runnable example is in [SnaplyAgent-Example-iOS](https://github.com/Mobile-LLC/SnaplyAgent-Example-iOS).
 
 ## Consent model
 
@@ -184,8 +184,8 @@ directly, and each released version is a git tag whose committed framework is th
 — which is why SwiftPM resolves it with no extra setup and no separate artifact download. The Swift
 source lives in a private repository.
 
-To try the SDK rather than read it, [`Examples/SnaplyExample`](Examples/SnaplyExample) is a complete
-app you can run.
+To try the SDK rather than read it, [SnaplyAgent-Example-iOS](https://github.com/Mobile-LLC/SnaplyAgent-Example-iOS)
+is a complete app you can run.
 
 ## Docs
 
